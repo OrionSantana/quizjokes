@@ -1,0 +1,7 @@
+{
+  "name": "joq",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
