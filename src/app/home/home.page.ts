@@ -24,12 +24,4 @@ export class HomePage {
       console.log(data);
     });
   }
-
-  again(){
-    this.chuck.getJokes().subscribe((data)=>{
-      this.joke = data;
-      console.log(data);
-    });
-  }
-
 }

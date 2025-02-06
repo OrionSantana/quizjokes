@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <div style="height: 100vh; background-color: rgb(85, 0, 125);">
 
-<div class="center">
+<div class="center" style="position: center;">
   <div class="card" style="width: 18rem; text-align: center;">
     <div class="card-body" style="background-color: rgb(211, 43, 226); border: rgb(255, 255, 255) solid 3px;">
       <h5 class="card-title">CHISTE</h5>
@@ -10,7 +10,7 @@
       <img [src]="joke.icon_url" [alt]="joke.icon_url">
       <p class="card-text"><b>{{joke.value}}</b></p>
       <a href="joke.url" class="card-link">Link Crasheador</a><br><br>
-      <button type="button" class="btn btn-danger" (click)="again()">NUEVO CHISTE</button>
+      <button type="button" class="btn btn-danger" (click)="ngOnInit()">NUEVO CHISTE</button>
     </div>
   </div>
 </div>
